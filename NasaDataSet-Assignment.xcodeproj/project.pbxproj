@@ -1,0 +1,698 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D708EED82BDA98C600980D4D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D708EED72BDA98C600980D4D /* AppDelegate.swift */; };
+		D708EEDA2BDA98C600980D4D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D708EED92BDA98C600980D4D /* SceneDelegate.swift */; };
+		D708EEDC2BDA98C600980D4D /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D708EEDB2BDA98C600980D4D /* HomeViewController.swift */; };
+		D708EEDF2BDA98C600980D4D /* Base in Resources */ = {isa = PBXBuildFile; fileRef = D708EEDE2BDA98C600980D4D /* Base */; };
+		D708EEE12BDA98C700980D4D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D708EEE02BDA98C700980D4D /* Assets.xcassets */; };
+		D708EEE42BDA98C700980D4D /* Base in Resources */ = {isa = PBXBuildFile; fileRef = D708EEE32BDA98C700980D4D /* Base */; };
+		D708EEEF2BDA98C700980D4D /* NasaDataSet_AssignmentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D708EEEE2BDA98C700980D4D /* NasaDataSet_AssignmentTests.swift */; };
+		D708EEF92BDA98C700980D4D /* NasaDataSet_AssignmentUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D708EEF82BDA98C700980D4D /* NasaDataSet_AssignmentUITests.swift */; };
+		D708EEFB2BDA98C700980D4D /* NasaDataSet_AssignmentUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D708EEFA2BDA98C700980D4D /* NasaDataSet_AssignmentUITestsLaunchTests.swift */; };
+		D708EF0D2BDA997B00980D4D /* ApiManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D708EF0C2BDA997B00980D4D /* ApiManager.swift */; };
+		D708EF0F2BDA999D00980D4D /* ImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = D708EF0E2BDA999D00980D4D /* ImageLoader.swift */; };
+		D708EF112BDA99B800980D4D /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D708EF102BDA99B800980D4D /* ViewModel.swift */; };
+		D708EF132BDA99D500980D4D /* Planet.swift in Sources */ = {isa = PBXBuildFile; fileRef = D708EF122BDA99D500980D4D /* Planet.swift */; };
+		D708EF152BDA9A1F00980D4D /* PlanetsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D708EF142BDA9A1F00980D4D /* PlanetsViewController.swift */; };
+		D708EF172BDA9A5100980D4D /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D708EF162BDA9A5100980D4D /* DetailsViewController.swift */; };
+		D708EF192BDA9A8F00980D4D /* PlanetsCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D708EF182BDA9A8F00980D4D /* PlanetsCollectionView.swift */; };
+		D708EF1B2BDA9AB200980D4D /* PlantCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D708EF1A2BDA9AB200980D4D /* PlantCollectionViewCell.swift */; };
+		D7EB2E022BEF6BF300BD4709 /* apod.json in Resources */ = {isa = PBXBuildFile; fileRef = D7EB2E012BEF6BF300BD4709 /* apod.json */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D708EEEB2BDA98C700980D4D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D708EECC2BDA98C600980D4D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D708EED32BDA98C600980D4D;
+			remoteInfo = "NasaDataSet-Assignment";
+		};
+		D708EEF52BDA98C700980D4D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D708EECC2BDA98C600980D4D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D708EED32BDA98C600980D4D;
+			remoteInfo = "NasaDataSet-Assignment";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D708EED42BDA98C600980D4D /* NasaDataSet-Assignment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NasaDataSet-Assignment.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D708EED72BDA98C600980D4D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D708EED92BDA98C600980D4D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D708EEDB2BDA98C600980D4D /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		D708EEDE2BDA98C600980D4D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D708EEE02BDA98C700980D4D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D708EEE32BDA98C700980D4D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D708EEE52BDA98C700980D4D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D708EEEA2BDA98C700980D4D /* NasaDataSet-AssignmentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "NasaDataSet-AssignmentTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D708EEEE2BDA98C700980D4D /* NasaDataSet_AssignmentTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NasaDataSet_AssignmentTests.swift; sourceTree = "<group>"; };
+		D708EEF42BDA98C700980D4D /* NasaDataSet-AssignmentUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "NasaDataSet-AssignmentUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D708EEF82BDA98C700980D4D /* NasaDataSet_AssignmentUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NasaDataSet_AssignmentUITests.swift; sourceTree = "<group>"; };
+		D708EEFA2BDA98C700980D4D /* NasaDataSet_AssignmentUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NasaDataSet_AssignmentUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D708EF0C2BDA997B00980D4D /* ApiManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiManager.swift; sourceTree = "<group>"; };
+		D708EF0E2BDA999D00980D4D /* ImageLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageLoader.swift; sourceTree = "<group>"; };
+		D708EF102BDA99B800980D4D /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		D708EF122BDA99D500980D4D /* Planet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Planet.swift; sourceTree = "<group>"; };
+		D708EF142BDA9A1F00980D4D /* PlanetsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanetsViewController.swift; sourceTree = "<group>"; };
+		D708EF162BDA9A5100980D4D /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		D708EF182BDA9A8F00980D4D /* PlanetsCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanetsCollectionView.swift; sourceTree = "<group>"; };
+		D708EF1A2BDA9AB200980D4D /* PlantCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlantCollectionViewCell.swift; sourceTree = "<group>"; };
+		D7EB2E012BEF6BF300BD4709 /* apod.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = apod.json; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D708EED12BDA98C600980D4D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D708EEE72BDA98C700980D4D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D708EEF12BDA98C700980D4D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D708EECB2BDA98C600980D4D = {
+			isa = PBXGroup;
+			children = (
+				D708EED62BDA98C600980D4D /* NasaDataSet-Assignment */,
+				D708EEED2BDA98C700980D4D /* NasaDataSet-AssignmentTests */,
+				D708EEF72BDA98C700980D4D /* NasaDataSet-AssignmentUITests */,
+				D708EED52BDA98C600980D4D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D708EED52BDA98C600980D4D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D708EED42BDA98C600980D4D /* NasaDataSet-Assignment.app */,
+				D708EEEA2BDA98C700980D4D /* NasaDataSet-AssignmentTests.xctest */,
+				D708EEF42BDA98C700980D4D /* NasaDataSet-AssignmentUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D708EED62BDA98C600980D4D /* NasaDataSet-Assignment */ = {
+			isa = PBXGroup;
+			children = (
+				D708EF072BDA98E100980D4D /* ApiServicces */,
+				D708EF082BDA98F900980D4D /* ViewModel */,
+				D708EF092BDA990400980D4D /* Model */,
+				D708EF0A2BDA990B00980D4D /* ViewControllers */,
+				D708EF0B2BDA992500980D4D /* Views */,
+				D708EED72BDA98C600980D4D /* AppDelegate.swift */,
+				D708EED92BDA98C600980D4D /* SceneDelegate.swift */,
+				D708EEDD2BDA98C600980D4D /* Main.storyboard */,
+				D708EEE02BDA98C700980D4D /* Assets.xcassets */,
+				D708EEE22BDA98C700980D4D /* LaunchScreen.storyboard */,
+				D708EEE52BDA98C700980D4D /* Info.plist */,
+				D7EB2E012BEF6BF300BD4709 /* apod.json */,
+			);
+			path = "NasaDataSet-Assignment";
+			sourceTree = "<group>";
+		};
+		D708EEED2BDA98C700980D4D /* NasaDataSet-AssignmentTests */ = {
+			isa = PBXGroup;
+			children = (
+				D708EEEE2BDA98C700980D4D /* NasaDataSet_AssignmentTests.swift */,
+			);
+			path = "NasaDataSet-AssignmentTests";
+			sourceTree = "<group>";
+		};
+		D708EEF72BDA98C700980D4D /* NasaDataSet-AssignmentUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D708EEF82BDA98C700980D4D /* NasaDataSet_AssignmentUITests.swift */,
+				D708EEFA2BDA98C700980D4D /* NasaDataSet_AssignmentUITestsLaunchTests.swift */,
+			);
+			path = "NasaDataSet-AssignmentUITests";
+			sourceTree = "<group>";
+		};
+		D708EF072BDA98E100980D4D /* ApiServicces */ = {
+			isa = PBXGroup;
+			children = (
+				D708EF0C2BDA997B00980D4D /* ApiManager.swift */,
+				D708EF0E2BDA999D00980D4D /* ImageLoader.swift */,
+			);
+			path = ApiServicces;
+			sourceTree = "<group>";
+		};
+		D708EF082BDA98F900980D4D /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				D708EF102BDA99B800980D4D /* ViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		D708EF092BDA990400980D4D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D708EF122BDA99D500980D4D /* Planet.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D708EF0A2BDA990B00980D4D /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				D708EEDB2BDA98C600980D4D /* HomeViewController.swift */,
+				D708EF142BDA9A1F00980D4D /* PlanetsViewController.swift */,
+				D708EF162BDA9A5100980D4D /* DetailsViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		D708EF0B2BDA992500980D4D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D708EF182BDA9A8F00980D4D /* PlanetsCollectionView.swift */,
+				D708EF1A2BDA9AB200980D4D /* PlantCollectionViewCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D708EED32BDA98C600980D4D /* NasaDataSet-Assignment */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D708EEFE2BDA98C700980D4D /* Build configuration list for PBXNativeTarget "NasaDataSet-Assignment" */;
+			buildPhases = (
+				D708EED02BDA98C600980D4D /* Sources */,
+				D708EED12BDA98C600980D4D /* Frameworks */,
+				D708EED22BDA98C600980D4D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "NasaDataSet-Assignment";
+			productName = "NasaDataSet-Assignment";
+			productReference = D708EED42BDA98C600980D4D /* NasaDataSet-Assignment.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D708EEE92BDA98C700980D4D /* NasaDataSet-AssignmentTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D708EF012BDA98C700980D4D /* Build configuration list for PBXNativeTarget "NasaDataSet-AssignmentTests" */;
+			buildPhases = (
+				D708EEE62BDA98C700980D4D /* Sources */,
+				D708EEE72BDA98C700980D4D /* Frameworks */,
+				D708EEE82BDA98C700980D4D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D708EEEC2BDA98C700980D4D /* PBXTargetDependency */,
+			);
+			name = "NasaDataSet-AssignmentTests";
+			productName = "NasaDataSet-AssignmentTests";
+			productReference = D708EEEA2BDA98C700980D4D /* NasaDataSet-AssignmentTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D708EEF32BDA98C700980D4D /* NasaDataSet-AssignmentUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D708EF042BDA98C700980D4D /* Build configuration list for PBXNativeTarget "NasaDataSet-AssignmentUITests" */;
+			buildPhases = (
+				D708EEF02BDA98C700980D4D /* Sources */,
+				D708EEF12BDA98C700980D4D /* Frameworks */,
+				D708EEF22BDA98C700980D4D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D708EEF62BDA98C700980D4D /* PBXTargetDependency */,
+			);
+			name = "NasaDataSet-AssignmentUITests";
+			productName = "NasaDataSet-AssignmentUITests";
+			productReference = D708EEF42BDA98C700980D4D /* NasaDataSet-AssignmentUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D708EECC2BDA98C600980D4D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					D708EED32BDA98C600980D4D = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					D708EEE92BDA98C700980D4D = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = D708EED32BDA98C600980D4D;
+					};
+					D708EEF32BDA98C700980D4D = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = D708EED32BDA98C600980D4D;
+					};
+				};
+			};
+			buildConfigurationList = D708EECF2BDA98C600980D4D /* Build configuration list for PBXProject "NasaDataSet-Assignment" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D708EECB2BDA98C600980D4D;
+			productRefGroup = D708EED52BDA98C600980D4D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D708EED32BDA98C600980D4D /* NasaDataSet-Assignment */,
+				D708EEE92BDA98C700980D4D /* NasaDataSet-AssignmentTests */,
+				D708EEF32BDA98C700980D4D /* NasaDataSet-AssignmentUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D708EED22BDA98C600980D4D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D708EEE12BDA98C700980D4D /* Assets.xcassets in Resources */,
+				D7EB2E022BEF6BF300BD4709 /* apod.json in Resources */,
+				D708EEE42BDA98C700980D4D /* Base in Resources */,
+				D708EEDF2BDA98C600980D4D /* Base in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D708EEE82BDA98C700980D4D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D708EEF22BDA98C700980D4D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D708EED02BDA98C600980D4D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D708EF1B2BDA9AB200980D4D /* PlantCollectionViewCell.swift in Sources */,
+				D708EF192BDA9A8F00980D4D /* PlanetsCollectionView.swift in Sources */,
+				D708EF0D2BDA997B00980D4D /* ApiManager.swift in Sources */,
+				D708EEDC2BDA98C600980D4D /* HomeViewController.swift in Sources */,
+				D708EF172BDA9A5100980D4D /* DetailsViewController.swift in Sources */,
+				D708EF0F2BDA999D00980D4D /* ImageLoader.swift in Sources */,
+				D708EED82BDA98C600980D4D /* AppDelegate.swift in Sources */,
+				D708EF152BDA9A1F00980D4D /* PlanetsViewController.swift in Sources */,
+				D708EF132BDA99D500980D4D /* Planet.swift in Sources */,
+				D708EF112BDA99B800980D4D /* ViewModel.swift in Sources */,
+				D708EEDA2BDA98C600980D4D /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D708EEE62BDA98C700980D4D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D708EEEF2BDA98C700980D4D /* NasaDataSet_AssignmentTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D708EEF02BDA98C700980D4D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D708EEF92BDA98C700980D4D /* NasaDataSet_AssignmentUITests.swift in Sources */,
+				D708EEFB2BDA98C700980D4D /* NasaDataSet_AssignmentUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D708EEEC2BDA98C700980D4D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D708EED32BDA98C600980D4D /* NasaDataSet-Assignment */;
+			targetProxy = D708EEEB2BDA98C700980D4D /* PBXContainerItemProxy */;
+		};
+		D708EEF62BDA98C700980D4D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D708EED32BDA98C600980D4D /* NasaDataSet-Assignment */;
+			targetProxy = D708EEF52BDA98C700980D4D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D708EEDD2BDA98C600980D4D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D708EEDE2BDA98C600980D4D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D708EEE22BDA98C700980D4D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D708EEE32BDA98C700980D4D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D708EEFC2BDA98C700980D4D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D708EEFD2BDA98C700980D4D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D708EEFF2BDA98C700980D4D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RX6S78692S;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "NasaDataSet-Assignment/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.peter.NasaDataSet-Assignment";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		D708EF002BDA98C700980D4D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RX6S78692S;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "NasaDataSet-Assignment/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.peter.NasaDataSet-Assignment";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		D708EF022BDA98C700980D4D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RX6S78692S;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.peter.NasaDataSet-AssignmentTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NasaDataSet-Assignment.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/NasaDataSet-Assignment";
+			};
+			name = Debug;
+		};
+		D708EF032BDA98C700980D4D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RX6S78692S;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.peter.NasaDataSet-AssignmentTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NasaDataSet-Assignment.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/NasaDataSet-Assignment";
+			};
+			name = Release;
+		};
+		D708EF052BDA98C700980D4D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RX6S78692S;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.peter.NasaDataSet-AssignmentUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "NasaDataSet-Assignment";
+			};
+			name = Debug;
+		};
+		D708EF062BDA98C700980D4D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RX6S78692S;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.peter.NasaDataSet-AssignmentUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "NasaDataSet-Assignment";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D708EECF2BDA98C600980D4D /* Build configuration list for PBXProject "NasaDataSet-Assignment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D708EEFC2BDA98C700980D4D /* Debug */,
+				D708EEFD2BDA98C700980D4D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D708EEFE2BDA98C700980D4D /* Build configuration list for PBXNativeTarget "NasaDataSet-Assignment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D708EEFF2BDA98C700980D4D /* Debug */,
+				D708EF002BDA98C700980D4D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D708EF012BDA98C700980D4D /* Build configuration list for PBXNativeTarget "NasaDataSet-AssignmentTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D708EF022BDA98C700980D4D /* Debug */,
+				D708EF032BDA98C700980D4D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D708EF042BDA98C700980D4D /* Build configuration list for PBXNativeTarget "NasaDataSet-AssignmentUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D708EF052BDA98C700980D4D /* Debug */,
+				D708EF062BDA98C700980D4D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D708EECC2BDA98C600980D4D /* Project object */;
+}
